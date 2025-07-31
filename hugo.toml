@@ -1,0 +1,4 @@
+baseURL = 'https://teabuff.me/'
+languageCode = 'en-us'
+title = 'Log by Tea'
+theme = "PaperMod"
