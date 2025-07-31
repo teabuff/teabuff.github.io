@@ -1,4 +1,16 @@
 baseURL = 'https://teabuff.me/'
 languageCode = 'en-us'
-title = 'Log by Tea'
-theme = "PaperMod"
+title = 'Log✍️ by Tea'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+Title = 'Welcome to Log✍️️ by Tea'
+Content = 'Hi, this is Dozen Tea. I am logging my learning notes and stray thoughts in this blog.'
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://x.com/metaphor5"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/teabuff"
