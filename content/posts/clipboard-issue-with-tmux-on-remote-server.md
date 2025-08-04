@@ -1,6 +1,7 @@
 +++
 title = 'Clipboard Issue with Tmux on Remote Server'
 date = 2025-07-31T21:22:07-07:00
+tags = ['Dev Environment']
 draft = false
 +++
 

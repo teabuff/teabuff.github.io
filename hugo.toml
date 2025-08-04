@@ -3,6 +3,13 @@ languageCode = 'en-us'
 title = 'Log✍️ by Tea'
 theme = 'PaperMod'
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+env = 'production'
+showAllTags = true
+
 [params.homeInfoParams]
 Title = 'Welcome to Log✍️️ by Tea'
 Content = 'Hi, this is Dozen Tea. I am logging my learning notes and stray thoughts in this blog.'
@@ -14,3 +21,27 @@ url = "https://x.com/metaphor5"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/teabuff"
+
+[[menu.main]]
+identifier = "posts"
+name = 'Posts'
+weight = 10
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archives/"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 30
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 40
+
